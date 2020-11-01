@@ -47,13 +47,22 @@
 }
 .article-description{
     width: 66%;
-    flex-direction: column
+    flex-direction: column;
+
+}
+.article-description h1{
+    width: 100%;
+    flex-direction: column;
+    height: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .article-description p{
     text-overflow: ellipsis;
     overflow: hidden;
-    
-    white-space: nowrap;
-    
+    height: 50%;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
 }
